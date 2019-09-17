@@ -1,8 +1,8 @@
-# SFND 3D Object Tracking
+# 3D Object Tracking
 
 Understanding of keypoint detectors, descriptors, and methods to match them between successive images. Also, know how to detect objects in an image using the YOLO deep-learning framework. And finally, know how to associate regions in a camera image with Lidar points in 3D space. 
 
-**Implementation:
+**Implementation**:
  
 First, match 3D objects in the bounding box by using keypoints.
  
