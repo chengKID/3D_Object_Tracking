@@ -2,10 +2,14 @@
 
 Understanding of keypoint detectors, descriptors, and methods to match them between successive images. Also, know how to detect objects in an image using the YOLO deep-learning framework. And finally, know how to associate regions in a camera image with Lidar points in 3D space. 
 
-Implementation: 
-First, match 3D objects in the bounding box by using keypoints. 
+**Implementation:
+ 
+First, match 3D objects in the bounding box by using keypoints.
+ 
 Second, compute the TTC based on Lidar measurements. 
+
 Third, compute the TTC based on the camera, which requires to match keypoints to regions of interest and then to compute the TTC. 
+
 Fourth, conduct various tests with the framework. The goal is to identify the most suitable detector/descriptor combination and also to search for problems that can lead to faulty measurements by the camera or Lidar sensor. 
 
 ## Dependencies for Running Locally
