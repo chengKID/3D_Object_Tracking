@@ -1,6 +1,6 @@
 # 3D Object Tracking
 
-Understanding of keypoint detectors, descriptors, and methods to match them between successive images. Also, know how to detect objects in an image using the YOLO deep-learning framework. And finally, know how to associate regions in a camera image with Lidar points in 3D space. 
+Applying keypoint detectors, descriptors, and methods to match them between successive images. Also, applying the YOLO deep-learning framework to detect objects in an image. And finally, associating regions in a camera image with Lidar points in 3D space. 
 
 **Implementation**:
  
@@ -27,3 +27,9 @@ Fourth, conduct various tests with the framework. The goal is to identify the mo
   * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
   * Windows: recommend using [MinGW](http://www.mingw.org/)
 
+## Basic Build Instructions
+
+1. Clone this repo.
+2. Make a build directory in the top level project directory: `mkdir build && cd build`
+3. Compile: `cmake .. && make`
+4. Run it: `./3D_object_tracking`.
